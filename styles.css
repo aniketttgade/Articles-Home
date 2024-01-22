@@ -1,0 +1,147 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #141414;
+    color: #fff;
+    margin: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #111;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    color: #3498db;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #3498db;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  button {
+    background-color: #e50914;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #d1080c;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #e50914;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #d1080c;
+  }
+ s
+  /* styles.css */
+
+/* ... existing styles ... */
+
+.delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #e74c3c; /* Red color for the delete button */
+    margin-right: 10px;
+  }
+  /* styles.css */
+
+/* ... existing styles ... */
+
+.download-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #2ecc71; /* Green color for the download button */
+    margin-right: 10px;
+  }
+  /* styles.css */
+
+/* ... existing styles ... */
+
+.search-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+  }
+  
+  #searchInput {
+    display: none;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 8px;
+    transition: width 0.3s ease;
+  }
+  
+  #searchInput.active {
+    display: block;
+    width: 150px;
+  }
+  
+  #searchButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #3498db;
+  }
+  /* styles.css */
+
+/* ... existing styles ... */
+
+.content-editor {
+    border: 1px solid #ccc;
+    min-height: 150px; /* Adjust the height as needed */
+    padding: 8px;
+    font-family: 'Arial', sans-serif; /* Default font */
+    font-size: 16px; /* Default font size */
+  }
+  
